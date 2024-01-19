@@ -1,0 +1,252 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+    body {
+        font-family: "Roboto", sans-serif;
+    }
+
+    header {
+        /* min-height: 400px; */
+        width: 100%;
+    }
+
+    nav {
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #000;
+    }
+
+    nav p {
+        font-size: 41px;
+        color: #fff;
+    }
+
+    span {
+        color: rgb(255, 3, 179);
+    }
+
+    .text {
+        display: flex;
+        text-align: right;
+    }
+
+    .text ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+    }
+
+    .text ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 22px;
+    }
+
+    .text ul li a:hover {
+        color: rgb(255, 3, 179);
+    }
+
+    nav i {
+        display: none;
+    }
+
+    @media(max-width: 700px) {
+        .text ul li {
+            display: block;
+        }
+
+        .text {
+            position: absolute;
+            background-color: #000000;
+            height: 896px;
+            width: 195px;
+            top: 0;
+            right: -200px;
+            text-align: left;
+            z-index: 2;
+        }
+
+        nav.fa {
+            display: block;
+            color: #fff;
+            margin: 10px 0;
+            font-size: 22px;
+            cursor: pointer;
+        }
+
+        .text ul {
+            padding: 15px;
+        }
+
+        nav i {
+            color: #fff;
+            margin: 10px 10px;
+        }
+    }
+
+    .lens{
+        padding: 80px 0;
+        color: rgb(255, 151, 16);
+    }
+
+    .lens-3{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .all-text{
+        flex-basis: 35%;
+    }
+
+    .all-text img{
+        width: 100%;
+        border-radius: 15px;
+        margin-left: 50px;
+    }
+
+    .all-text2{
+        flex-basis: 60%;
+    }
+
+    .main{
+        font-size: 40px;
+        font-weight: 600;
+        padding-left: 20px;
+    }
+
+    .sky{
+        color: #000;
+        padding: 10px 20px;
+    }
+
+    .sky-2{
+        color: #000;
+        padding: 10px 20px;
+    }
+
+    @media(max-width:600px){
+        .main{
+            font-size: 40px;
+        }
+
+        .all-text,.all-text2{
+            flex-basis: 100%;
+        }
+        .all-text{
+            margin-bottom: 30px;
+        }
+
+        .all-text2{
+            font-size: 14px;
+        }
+    }
+
+ 
+
+    .max {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    h1 {
+        font-size: 41px;
+        font-weight: 600;
+    }
+
+    .max-2 {
+        color: #000;
+        font-size: 22px;
+        line-height: 22px;
+        padding-top: 18px;
+        text-align: center;
+    }
+
+    .about {
+        color: rgb(255, 151, 16);
+    }
+
+    .row {
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .col {
+        flex-basis: 31%;
+        background-color: #000;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 20px 27px;
+    }
+
+    h3 {
+        text-align: left;
+        font-weight: 600;
+        margin-top: 10px;
+        color: rgb(255, 151, 16);
+    }
+
+    p {
+        text-align: left;
+        color: #fff;
+        font-size: 16px;
+        padding-top: 12px;
+        line-height: 25px;
+    }
+
+    .btn {
+        background-color: #000;
+        color: #fff;
+        text-align: left;
+    }
+
+    @media(max-width:700px) {
+        .row {
+            flex-direction: column;
+        }
+
+        .col p {
+            font-size: 14px;
+        }
+    }
+
+    .foot {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .foot h3 {
+        margin-top: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .foot p {
+        text-align: center;
+        color: #000;
+    }
+
+    .icons i {
+        color: #777;
+        margin: 0px 14px;
+        cursor: pointer;
+        padding: 18px 0px;
+        font-size: 25px;
+    }
+
+    .icons i:hover {
+        color: rgb(255, 151, 16);
+    }
